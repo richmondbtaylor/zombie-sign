@@ -1,0 +1,220 @@
+{
+  "documents": [
+    {
+      "id": "d1",
+      "title": "Bakery supply agreement",
+      "body": "Sunrise Bakery agrees to buy 200 lb of flour each week from Example Mills at the agreed price.\n\nThis is fake sample text for the hackathon.",
+      "status": "Signed",
+      "createdAt": "2026-10-01T14:00:00.000Z",
+      "signers": [
+        {
+          "id": "s1",
+          "name": "Maria Lopez",
+          "email": "maria@example.com",
+          "signature": "Maria Lopez",
+          "signedAt": "2026-10-02T10:15:00.000Z"
+        },
+        {
+          "id": "s2",
+          "name": "Tom Baker",
+          "email": "tom@example.com",
+          "signature": "",
+          "signedAt": ""
+        }
+      ],
+      "activity": [
+        {
+          "id": "a1",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-01T14:00:00.000Z"
+        },
+        {
+          "id": "a2",
+          "type": "sent",
+          "who": "You",
+          "at": "2026-10-01T14:05:00.000Z"
+        },
+        {
+          "id": "a3",
+          "type": "signed",
+          "who": "Maria Lopez",
+          "at": "2026-10-02T10:15:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d2",
+      "title": "Freelance design contract",
+      "body": "Dana Reyes will design a logo for Palm Street Cafe for a flat fee. Two rounds of changes are included.\n\nFake sample text.",
+      "status": "Sent",
+      "createdAt": "2026-10-10T09:30:00.000Z",
+      "signers": [
+        {
+          "id": "s3",
+          "name": "Dana Reyes",
+          "email": "dana@example.com",
+          "signature": "",
+          "signedAt": ""
+        }
+      ],
+      "activity": [
+        {
+          "id": "a4",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-10T09:30:00.000Z"
+        },
+        {
+          "id": "a5",
+          "type": "sent",
+          "who": "You",
+          "at": "2026-10-10T09:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d3",
+      "title": "Office lease renewal",
+      "body": "Blue Harbor Studio renews its lease for 12 more months at the same rent.\n\nFake sample text.",
+      "status": "Draft",
+      "createdAt": "2026-10-20T16:45:00.000Z",
+      "signers": [
+        {
+          "id": "s4",
+          "name": "Carlos Vega",
+          "email": "carlos@example.com",
+          "signature": "",
+          "signedAt": ""
+        },
+        {
+          "id": "s5",
+          "name": "Priya Shah",
+          "email": "priya@example.com",
+          "signature": "",
+          "signedAt": ""
+        }
+      ],
+      "activity": [
+        {
+          "id": "a6",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-20T16:45:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d4",
+      "title": "Photo release form",
+      "body": "Lena Ortiz lets Green Door Gym use photos from the 2026 open house on its website.\n\nFake sample text.",
+      "status": "Draft",
+      "createdAt": "2026-10-25T11:00:00.000Z",
+      "signers": [],
+      "activity": [
+        {
+          "id": "a7",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-25T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "d5",
+      "title": "Mural commission",
+      "body": "Sam Ito will paint a mural on the east wall of Sunset Books. Paint is paid for by the shop.\n\nFake sample text.",
+      "status": "Sent",
+      "createdAt": "2026-10-27T13:20:00.000Z",
+      "signers": [
+        {
+          "id": "s6",
+          "name": "Sam Ito",
+          "email": "sam@example.com",
+          "signature": "",
+          "signedAt": ""
+        },
+        {
+          "id": "s7",
+          "name": "Nora Webb",
+          "email": "nora@example.com",
+          "signature": "",
+          "signedAt": "",
+          "declinedAt": "2026-10-28T09:10:00.000Z",
+          "declineReason": "Paint colors were not what we talked about."
+        }
+      ],
+      "activity": [
+        {
+          "id": "a8",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-27T13:20:00.000Z"
+        },
+        {
+          "id": "a9",
+          "type": "sent",
+          "who": "You",
+          "at": "2026-10-27T13:30:00.000Z"
+        },
+        {
+          "id": "a10",
+          "type": "declined",
+          "who": "Nora Webb",
+          "at": "2026-10-28T09:10:00.000Z",
+          "note": "Paint colors were not what we talked about."
+        }
+      ]
+    },
+    {
+      "id": "d6",
+      "title": "Catering service agreement",
+      "body": "Harbor Table Catering will serve lunch for 40 people at Coral Way Dental on the first Friday of each month.\n\nFake sample text.",
+      "status": "Sent",
+      "createdAt": "2026-10-28T08:00:00.000Z",
+      "signers": [
+        {
+          "id": "s8",
+          "name": "Elena Park",
+          "email": "elena@example.com",
+          "signature": "",
+          "signedAt": ""
+        }
+      ],
+      "activity": [
+        {
+          "id": "a11",
+          "type": "created",
+          "who": "You",
+          "at": "2026-10-28T08:00:00.000Z"
+        },
+        {
+          "id": "a12",
+          "type": "sent",
+          "who": "You",
+          "at": "2026-10-28T08:10:00.000Z"
+        }
+      ]
+    }
+  ],
+  "templates": [
+    {
+      "id": "t1",
+      "title": "Simple service agreement",
+      "body": "[Your business] agrees to provide [the service] to [the client] for [the price].\n\nWork starts on [start date]. Payment is due within 14 days of the invoice.\n\nFake sample template.",
+      "createdAt": "2026-09-15T12:00:00.000Z"
+    },
+    {
+      "id": "t2",
+      "title": "Photo release",
+      "body": "[Name] lets [Business] use photos taken at [event] on its website and social pages.\n\nFake sample template.",
+      "createdAt": "2026-09-20T12:00:00.000Z"
+    },
+    {
+      "id": "t3",
+      "title": "Mutual NDA (short)",
+      "body": "[Business A] and [Business B] agree to keep each other's private business information secret for 2 years.\n\nFake sample template. Not legal advice.",
+      "createdAt": "2026-09-28T12:00:00.000Z"
+    }
+  ]
+}
